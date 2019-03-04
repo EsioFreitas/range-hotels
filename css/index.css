@@ -1,0 +1,37 @@
+@charset "UFT-8";
+
+html, body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Oxygen";
+}
+
+.top-header{
+    text-align: center;
+}
+
+.top-nav{
+    background-color: #612374;
+    padding: .5rem 0;
+}
+
+.top-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+    transition: all .2s;
+}
+
+.top-nav a:hover{
+    background-color: #7c3792;
+}
