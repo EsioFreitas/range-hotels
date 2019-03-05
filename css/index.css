@@ -63,6 +63,13 @@ footer a {
     color: white;
 }
 
+.icon-play{
+    height: 7rem;
+    display: none;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+
 .clearfix{
     clear: both;
 }
@@ -181,5 +188,40 @@ footer a {
     .botton-content a {
         float: right;
     }
+
+    .icon-play{
+        display: block;
+    }
     
+}
+
+@media screen and (min-width: 62.5rem){
+    .top-content{
+        background-image: url("../images/bg_topo_1198x670.jpg");
+        background-size: cover;
+        padding-top: 15rem;
+    }
+}
+
+@media screen and (min-width: 74rem){
+    .top-content{
+        background-image: url("../images/bg_topo_1600x1374.jpg  ");
+        padding-bottom: 3rem;
+        padding-top: 15rem;
+        background-position: center 30%;
+    }
+
+    .middle-content article {
+        width: 20%;
+        margin: 2%;
+    }
+
+    .botton-content article {
+        width: 43%;
+        margin: 3%;
+    }
+
+    .botton-content a {
+        float: left;
+    }
 }
