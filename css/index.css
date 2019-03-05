@@ -63,6 +63,9 @@ footer a {
     color: white;
 }
 
+.clearfix{
+    clear: both;
+}
 .btn{
     display: inline-block;
     text-decoration: none;
@@ -169,4 +172,14 @@ footer a {
     .top-nav a:hover{
         background-color: #e7d9fc;
     }
+
+    .middle-content article {
+        width: 43%;
+        margin: 3%;
+    }
+
+    .botton-content a {
+        float: right;
+    }
+    
 }
