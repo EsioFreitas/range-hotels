@@ -108,13 +108,14 @@ footer a {
 .top-content__title{
     color: #612674;
     margin: 1.4rem;
-    font-size: 1.37rem;
+    font-size: 1.35rem;
 }
 
 .top-content__subtitle{
     color: #a87bb7;
     line-height: 1.5;
     margin: .5rem;
+    font-size: 1rem;
 }
 
 .middle-content{
@@ -134,4 +135,38 @@ footer a {
 
 .botton-content h3 {
     letter-spacing: .3rem;
+}
+
+@media screen and (min-width: 48.75rem){
+    header{
+        display: flex;
+        justify-content: space-around;
+        padding: .5rem 0;
+    }
+
+    .top-content{
+        background-color: #521a66;
+    }
+
+    .top-content__title, .top-content__subtitle{
+        color: white;
+    }
+
+    .top-nav{
+        background-color: transparent;
+        padding: 2.5rem 0 0 0;
+    }
+    
+    .top-nav li{
+        display: inline-block;
+    }
+    
+    .top-nav a{
+        color: #713a84;
+        font-weight: bold;
+    }
+    
+    .top-nav a:hover{
+        background-color: #e7d9fc;
+    }
 }
