@@ -31,6 +31,38 @@ section{
     padding: 1.5rem;
 }
 
+footer{
+    background-color: #25303e;
+    color: #83969f;
+    padding-bottom: 1rem;
+}
+
+footer span{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    display: block;
+    opacity: 0;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #303c4d;
+}
+
+footer li {
+    display: inline-block;
+    padding: 1rem 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+
 .btn{
     display: inline-block;
     text-decoration: none;
