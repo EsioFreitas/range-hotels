@@ -3,10 +3,32 @@
 html, body{
     font-family: sans-serif;
     box-sizing: border-box;
+    text-align: center;
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family: "Oxygen";
+}
+
+article{
+    margin: 1rem 0;
+    display: inline-block;
+
+}
+
+article h3 {
+    color: #652e65;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+article p {
+    line-height: 1.5;
+    color: #222;
+}
+
+section{
+    padding: 1.5rem;
 }
 
 .btn{
@@ -22,10 +44,6 @@ h1,h2,h3,h4,h5,h6{
 
 .btn:hover{
     background-color: #37a0a0;
-}
-
-.top-header{
-    text-align: center;
 }
 
 .top-nav{
@@ -52,8 +70,6 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .top-content{
-    text-align: center;
-    padding: 1rem;
     background-color: #f6f6f6;
 }
 
@@ -67,4 +83,23 @@ h1,h2,h3,h4,h5,h6{
     color: #a87bb7;
     line-height: 1.5;
     margin: .5rem;
+}
+
+.middle-content{
+    background-color: #f6f6f6;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.middle-content span[class^=icon]{
+    font-size: 4rem;
+    color: #652e65;
+}
+
+.botton-content{
+    text-align: start;
+}
+
+.botton-content h3 {
+    letter-spacing: .3rem;
 }
